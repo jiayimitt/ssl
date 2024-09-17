@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* THe CSS box sizing property allows us to in clude the padding and
+ border in an element's total width and height, add this rule to your 'reset .css'*/
+*{
+    margin-left: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+/* Basic page container */
+body {
+    font-family: "Nunito", sans-serif;
+    background-color: #f0f0f0f0;
+    line-height: 1.5;
+}
+
+.container{
+    width: min(100%-32px,1200px);
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0f0;
+}
